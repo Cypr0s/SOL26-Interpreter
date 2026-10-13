@@ -7,7 +7,7 @@
 
 FROM python:3.14-slim AS check
 
-# composer requiremnt
+# composer requirement
 RUN apt-get update && apt-get install -y git zip unzip
 
 # install php 8.5
