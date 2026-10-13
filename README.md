@@ -118,9 +118,6 @@ cd /src/int    && ./ruff check src && ./mypy src
 cd /src/tester && ./phpstan analyse && ./phpcs
 ```
 
-> **Podman on SELinux systems** (e.g. Fedora): add `:Z` to the volume options,
-> e.g. `-v "$PWD/tests:/tests:ro,Z"`.
-
 ## Result
 
 **18.3 / 20 points**
